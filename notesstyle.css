@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    background-image: url("mouse.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fullsize {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: .7%;
+    background: rgba(0, 0, 0, .75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,#00ccff);
+    animation: animate 4s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent, transparent, transparent, #e5de00);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+            transform: rotate(360deg);
+    }
+}
+
+.box .span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    inset: 5px;
+    border-radius: 16px;
+    /* background: #0c1022; */
+    background-image: url("mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#span1 {
+    background-image: url("Biology.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#span2 {
+    background-image: url("Physics.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#span3 {
+    background-image: url("Chem.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#span4 {
+    background-image: url("English.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#span5 {
+    background-image: url("Lr.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    font-size: 50px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+/* RESPOSIVENESS */
+
+@media (max-width: 992px) {
+    .fullsize {
+            display: flex;
+            flex-direction: column;
+        }
+    .box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

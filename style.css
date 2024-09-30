@@ -119,11 +119,22 @@ section#hero {
     text-align: center;
     justify-content: center;
     color: #fff;
+    animation: hero 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal;
 }
 
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+@keyframes hero
+ {
+    from {
+        opacity: .2;
+    }
+    to {
+        opacity: 1;
+    }
 }
 /* RESPOSIVENESS */
 @media (max-width: 992px) {
