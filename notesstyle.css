@@ -22,18 +22,22 @@ body {
 }
 
 #notesintro {
+    align-self: center;
     padding-top: 73px;
     margin: 10px;
     color: whitesmoke;
-    font-family: "Updock", cursive;
-    font-weight: 200;
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: "Caveat Brush", cursive;
     font-style: normal;
+    font-size: 20px; */
+    font-family: "Vibes", system-ui;
     font-style: normal;
-    font-size: 15px;
     align-self: center;
     font-weight: bolder;
     text-transform: uppercase;
     line-height: 30px;
+    letter-spacing: 5px;
     animation: notesintro .5s linear;
 }
 
@@ -146,12 +150,16 @@ body {
 }
 
 #a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: "New Rocker", system-ui;
+    font-weight: 800;
+    font-style: normal;
     color: orangered;
     font-size: 40px;
     margin: 10px;
     padding: 20px;
     text-transform: capitalize;
+    scale: 1.2;
 }
 /* AMIMATE ON SCROLL */
 @keyframes appear {
