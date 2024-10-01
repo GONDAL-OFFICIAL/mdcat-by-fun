@@ -21,7 +21,7 @@ body {
 }
 
 #notesintro {
-    margin-top: 40px;
+    padding-top: 73px;
     margin: 10px;
     color: whitesmoke;
     text-align: center;
@@ -30,6 +30,16 @@ body {
     font-weight: bolder;
     text-transform: uppercase;
     line-height: 30px;
+    animation: notesintro .5s linear;
+}
+
+@keyframes notesintro {
+    from {
+        transform: translateY(100vh);
+    }
+    to {
+        transform: translateY(0vh);
+    }
 }
 
 .fullsize {
