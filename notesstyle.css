@@ -22,12 +22,13 @@ body {
 }
 
 #notesintro {
-    align-self: center;
     padding-top: 73px;
     margin: 10px;
     color: whitesmoke;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Updock", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-style: normal;
     font-size: 15px;
     align-self: center;
     font-weight: bolder;
