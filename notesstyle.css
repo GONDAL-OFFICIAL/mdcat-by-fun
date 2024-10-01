@@ -159,7 +159,6 @@ body {
     margin: 10px;
     padding: 20px;
     text-transform: capitalize;
-    scale: 1.2;
 }
 /* AMIMATE ON SCROLL */
 @keyframes appear {
@@ -203,6 +202,7 @@ body {
     }
     #a {
         font-size: 45px;
+        scale: 1.2;
     }
 }
 
