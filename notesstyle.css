@@ -44,9 +44,11 @@ body {
 @keyframes notesintro {
     from {
         transform: translateY(100vh);
+        opacity: 0;
     }
     to {
         transform: translateY(0vh);
+        opacity: .5;
     }
 }
 

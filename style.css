@@ -20,14 +20,14 @@ body {
     background-position: center;
 }
 
-#stick {
+/* #stick {
     position: sticky;
     top: 10px;
     z-index: 73;
     backdrop-filter: blur(3pc);
     border-radius: 37.5px;
 
-}
+} */
 
 li {
     list-style-type: none;
