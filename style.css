@@ -20,6 +20,15 @@ body {
     background-position: center;
 }
 
+#stick {
+    position: sticky;
+    top: 10px;
+    z-index: 73;
+    backdrop-filter: blur(3pc);
+    border-radius: 37.5px;
+
+}
+
 li {
     list-style-type: none;
 }
@@ -160,12 +169,6 @@ section#hero {
 
     .dropdown_menu {
         display: block;
-    }
-
-    #stick {
-        position: sticky;
-        top: 0;
-        z-index: 73;
     }
 }
 
