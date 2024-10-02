@@ -5,11 +5,16 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+*::selection {
+    color: red;
+    background-color: yellow;
+}
+
 body {
     height: 100vh;
     background-color: #000;
-    background-image: url("mouse.jpg");
-    background-image: url("pexels-fwstudio-33348-129731.jpg");
+    /* background-image: url("mouse.jpg");
+    background-image: url("pexels-fwstudio-33348-129731.jpg"); */
     background-image: url(pexels-eva-bronzini-5947891.jpg);
     background-size: cover;
     background-position: center;
@@ -155,6 +160,12 @@ section#hero {
 
     .dropdown_menu {
         display: block;
+    }
+
+    #stick {
+        position: sticky;
+        top: 0;
+        z-index: 73;
     }
 }
 
