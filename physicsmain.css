@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+*::selection {
+    color: red;
+    background-color: yellow;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    /* background-image: url("mouse.jpg");
+    background-image: url("pexels-fwstudio-33348-129731.jpg"); */
+    background-image: url(pexels-eva-bronzini-5947891.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#span6 {
+    background-image: url("pexels-ann-h-45017-1762851.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#span6 a {
+    scale: 1.2;
+    color: antiquewhite;
+    font-family: "Vibes", system-ui;
+    font-family: "Caveat Brush", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
